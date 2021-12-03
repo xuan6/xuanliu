@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()} Designed and Developed by Xuan Liu, Built with React & 
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
