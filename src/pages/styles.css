@@ -7,8 +7,30 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: 'Lato';
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
 
 .hero {
     min-height: 60%;
@@ -29,6 +51,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items:flex-end;
+    color:black;
 }
 
 .post-thumbnail{

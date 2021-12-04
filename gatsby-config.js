@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Xuan Liu`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Xuan Liu - Design Engineering Portfolio`,
     author: `@xuanliu`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://xuanliu.xyz`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

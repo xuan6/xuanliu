@@ -36,10 +36,11 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            margin: `2rem auto 0 auto`,
           }}
         >
-          © {new Date().getFullYear()} Designed and Developed by Xuan Liu, Built with React & 
+          © {new Date().getFullYear()} Design and Code by Xuan Liu <br/>
+          Built with React & 
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
