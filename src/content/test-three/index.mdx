@@ -1,11 +1,73 @@
 ---
-title: 'Test 3333'
+title: 'Alexa Design System'
 date: '2017-08-21'
-description: 'My first AMA :)'
+description: 'Amazon Device Specific Design System'
 hero_image: "./test-3.jpeg"
 hero_image_alt: "test"
 hero_image_credit_text: "Christopher Ayme"
 hero_image_credit_link: "https://unsplash.com/photos/ocZ-_Y7-Ptg"
 ---
+**[Technical Design]** 
 
-Thank you everyone who enjoyed the AMA! It was my first one and I'd love to!!!
+granular level - how to technically structure and realize the UI for a specific use case, considering all the risks and limitations, to make the UI functional and feasible
+
+- eg. how to realize a card UI on the home page
+
+小：细节实现、How to 针对单一场景从设计到开发的技术转化 functional和feasible
+
+**[System Thinking]** 
+
+hight level - **systematic, set up UI logics to handle how to scale and react to changes under different scenarios and contexts** 
+
+- eg. how to realize a set of card UI on home and settings across mobile, tablet on iOS and Android
+
+大：系统化、怎么变，在不同场景下有逻辑地变化和应用
+
+- from a singular scenario to a robust system
+- from one device to more
+- from one tech stack to more
+
+**[Communicator] 【cross function collaboration 怎么做出来、沟通打磨、advocate and socialize，讲behavior故事？】**
+
+- [System] **Identify** opportunity → systematize and structure designs into reusable development ready building blocks and templates
+    - Find opportunity → componentize designs with engineering patterns → booster efficiency, do right things
+        - identify and abstract reusable building blocks from design
+            - eg. card → image + group of buttons → button and image view should be reusable across the system, otherwise it is expensive and hard to maintain
+        - system evangelist
+            - **frame design patterns** or
+            - **leverage** existing patterns
+            - catch custom designs that could conflict with or break existing design system
+            - investigate solutions to realize custom designs that are not supported by existing system
+                - custom font style, italic, not in existing design library package → custom override
+
+- [Technical+System] **Govern** details→ gate keeper, foresee limitations and concerns, focus on details, do things right
+    - interaction flow (not block flow)
+        - component states
+        - page empty states
+    - feasibility
+        - explore viable solutions without compromising design intent
+        - hardware - motion, rendering
+        hardware chips are the cheapest you can find plus 10% off, not apple chips, motion design is limited
+        - software - performance
+        - platform - realize a same set of designs cross platform
+            
+            how to realize design on different platforms with different technologies, also how to address different technical challenges and risks
+            
+            <aside>
+            💡 eg. shadow的实现: iOS 原生、安卓 elevation、自带的frame或者9patch、APL的局限
+            
+            </aside>
+            
+    - scalability - future proof - how to react when things change
+        - content (too much content → truncation or scroll & empty state)
+        - localization - enough space to grow, future proof
+        - device screen size - set up logic, bounding box
+    - accessibility
+        - font size
+        - color contrast
+        - touch target
+    - compatibility
+        - fallback platform version (iOS SVG support - use PNG or PDF, Android animation support)
+    - consistency
+        - cross platform (iOS Android, available on A but limited on the other, go or no go)
+        - cross product family (same component, different behavior, bad design)

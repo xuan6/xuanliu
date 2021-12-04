@@ -6,17 +6,17 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Tile from "../components/tile"
 import { node } from "prop-types"
+import PostCard from "../components/postCard"
 
 const Home = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <h1>List of items</h1>
-    <h4>{data.allMdx.totalCount}</h4>
+    <div className='hero'>
+      <h1>Xuan Liu</h1>
+      <h2>System Designer & Engineer at Amazon</h2>
+    </div>
     {data.allMdx.nodes.map((node) => (
-        <article key={node.id}>
-          <Link to={`/${node.slug}`}>{node.frontmatter.title}</Link>
-          <p>{node.excerpt}</p>
-        </article>
+        <PostCard content={node}/>
       ))
     }
   </Layout>
@@ -30,6 +30,7 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
+          description
         }
         excerpt
         id
