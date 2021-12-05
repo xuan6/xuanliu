@@ -11,7 +11,7 @@ import Hero from "../components/hero"
 import PostCard from "../components/postCard"
 
 const Home = ({data}) => {
-  console.log(data)
+  console.log(data.allMdx.nodes[0].frontmatter.order/2)
   return(
     <Layout>
     <Seo title="Home" />
@@ -51,10 +51,11 @@ export default Home;
 
 export const query = graphql`
 query {
-  allMdx {
+  allMdx (sort: { fields: [frontmatter___order], order: ASC }) {
     nodes {
       frontmatter {
         description
+        order
         title
         thumb {
           childImageSharp {

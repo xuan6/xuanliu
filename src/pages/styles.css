@@ -75,6 +75,10 @@ footer {
     max-width: 960px;
 }
 
+.reversed-columns {
+    flex-direction: row-reverse;
+}
+
 .post-section {
     display: flex;
     flex-direction: column;

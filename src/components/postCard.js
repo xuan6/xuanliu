@@ -7,8 +7,9 @@ const PostCard = ({ content }) => {
     const image = getImage(content.frontmatter.thumb)
     return (
     <Link to={`/${content.slug}`}>
-    <div key={content.id} className='post-section'>
-        <div className='post-card columns is-desktop is-vcentered'>
+    <div key={content.id}
+    className='post-section' >
+        <div className={`${content.frontmatter.order%2 == 0 ? 'reversed-columns':'' } post-card columns is-desktop is-vcentered`}>
             <div className='post-thumbnail column is-half'>
             <GatsbyImage image={image} alt='alt' />
             </div>
