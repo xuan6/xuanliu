@@ -50,6 +50,12 @@ p {
     font-size: 1rem;
 }
 
+.navbar {
+    max-width: 960px;
+    margin:0 auto 1rem auto;
+    fill-opacity: 0;
+}
+
 footer {
     margin: 2rem;
     text-align: center;
