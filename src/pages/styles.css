@@ -50,6 +50,11 @@ p {
     font-size: 1rem;
 }
 
+footer {
+    margin: 2rem;
+    text-align: center;
+}
+
 .hero {
     /* min-height: 60%;
     min-width: 100%; */
@@ -60,6 +65,7 @@ p {
 .hero-body {
     width: 960px;
     margin: 0 auto;
+    text-align: start;
 }
 
 .posts {

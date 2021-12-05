@@ -28,15 +28,11 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
       <main>{children}</main>
-      <footer
-        style={{
-          margin: `2rem auto 0 auto`,
-        }}
-      >
-        © {new Date().getFullYear()} Design and Code by Xuan Liu <br/>
+      <footer className='container'>
+        © {new Date().getFullYear()} Design and Code by Xuan Liu. 
         Built with React & 
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://www.gatsbyjs.com">Gatsby</a>.
       </footer>
       </div>
     </>
