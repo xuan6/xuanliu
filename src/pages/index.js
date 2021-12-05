@@ -54,7 +54,9 @@ query {
   allMdx (sort: { fields: [frontmatter___order], order: ASC }) {
     nodes {
       frontmatter {
+        tag
         description
+        external_link
         order
         title
         thumb {
@@ -65,7 +67,6 @@ query {
       }
       id
       slug
-      excerpt
     }
   }
 }
