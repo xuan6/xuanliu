@@ -4,13 +4,11 @@ import { Link } from "gatsby"
 
 const Hero = () => (
 
-<div class="hero-home"
-style={{
-    backgroundColor: `#f0cba5`,
-    margin: `0 auto 1.45rem auto`,
-    width:`100%`,
-    height:`80%`
-  }}>
+<div className="hero is-large">
+  <div className='hero-body'>
+    <h1>Xuan Liu</h1>
+    <h2>System Designer & Engineer at Amazon</h2>
+  </div>
 </div>
 )
 

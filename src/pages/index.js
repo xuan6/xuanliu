@@ -6,19 +6,27 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Tile from "../components/tile"
 import { node } from "prop-types"
+import Hero from "../components/hero"
 import PostCard from "../components/postCard"
 
 const Home = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <div className='hero'>
-      <h1>Xuan Liu</h1>
-      <h2>System Designer & Engineer at Amazon</h2>
-    </div>
-    {data.allMdx.nodes.map((node) => (
-        <PostCard content={node}/>
+    <Hero />
+    <div className='container'>
+      <div className='posts'>
+      {data.allMdx.nodes.map((node) => (
+          <PostCard content={node}/>
+        ))
+      }
+
+      {data.allMdx.nodes.map((node) => (
+        <div className='column'>Hi</div>
       ))
     }
+      </div>
+    </div>
+    
   </Layout>
 )
 
