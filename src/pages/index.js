@@ -11,7 +11,7 @@ import Hero from "../components/hero"
 import PostCard from "../components/postCard"
 
 const Home = ({data}) => {
-  console.log(data.allMdx.nodes[0].frontmatter.order/2)
+  // console.log(--error message goes here--)
   return(
     <Layout>
     <Seo title="Home" />
