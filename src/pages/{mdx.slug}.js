@@ -15,7 +15,7 @@ const Post = ({data}) => {
   <Layout>
     <Seo title="Home" />
     <Link to='/'>Home</Link>
-    <GatsbyImage image={image} alt={data.mdx.frontmatter.hero_image_alt} />
+    <GatsbyImage image={image} alt={data.hero_image_alt} />
     <div className='container'>
       <h1>{data.mdx.frontmatter.title}</h1>
       <span>{data.mdx.frontmatter.date}</span>

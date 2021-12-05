@@ -58,7 +58,8 @@ p {
 }
 
 .hero-body {
-    max-width: 800px;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .posts {
@@ -87,22 +88,13 @@ p {
     justify-content: center;
     align-items: center; */
     color:black;
-}
-/* 
-.post-card:nth-child(even) {
-    flex-direction: row-reverse;
-  } */
-
-.post-thumbnail{
-    /* min-width: 10rem;
-    min-height: 10rem; */
+    width:100%;
 }
 
 .post-thumbnail img{
     width: 100%;
     aspect-ratio: 1/1;
-    /* border-radius: 0.5rem; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     margin:0.5rem auto 0 auto;
 }
 
