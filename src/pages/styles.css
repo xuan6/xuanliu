@@ -51,7 +51,7 @@ p {
 }
 
 .navbar {
-    max-width: 960px;
+    max-width: 1280px;
     margin:0 auto 1rem auto;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -77,10 +77,15 @@ footer {
     text-align: start;
 }
 
+.about {
+    margin: 4rem auto 2rem auto;
+    max-width: 960px;
+}
+
 .posts {
     flex-direction: column;
     display: flex;
-    margin: -4rem auto 2rem auto;
+    margin: 4rem auto 2rem auto;
     max-width: 960px;
 }
 
@@ -110,11 +115,16 @@ footer {
     width:100%;
 }
 
+.post-thumbnail img:hover{
+    opacity: 0.5;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
+}
+
 .post-thumbnail img{
     width: 100%;
     aspect-ratio: 1/1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     margin:0.5rem auto 0 auto;
+    object-fit: contain;
 }
 
 .post-description {

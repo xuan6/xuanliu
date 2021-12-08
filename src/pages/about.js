@@ -6,9 +6,10 @@ import './styles.css'
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
-    <h1>About</h1>
-    <p>Hi.</p>
+  <Seo title="About" />
+  <div className='container about'>
+    <h1>Hi, this is Xuan Liu.</h1>
+  </div>
   </Layout>
 )
 

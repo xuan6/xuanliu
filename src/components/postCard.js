@@ -8,11 +8,11 @@ const PostCard = ({ content }) => {
     const postLink = content.slug
     const externalLink = content.frontmatter.external_link
     return (
+    <div key={content.id}
+    className='post-section' >
     <Link
     to={`${externalLink ==='na' ? postLink : externalLink}`}
     >
-    <div key={content.id}
-    className='post-section' >
         <div className={`${content.frontmatter.order%2 == 0 ? 'reversed-columns':'' } post-card columns is-desktop is-vcentered`}>
             <div className='post-thumbnail column is-half'>
             <GatsbyImage image={image} alt='alt' />
@@ -26,8 +26,9 @@ const PostCard = ({ content }) => {
             </div>
         </div>
         <hr className='post-divider' />
-    </div>
     </Link>
+    </div>
+    
 
     )
     

@@ -5,8 +5,7 @@ import { Link } from "gatsby"
 
 const Hero = () => {
   return (
-    <div className="hero is-large">
-    <section className='rain'></section>
+    <div className="hero is-small">
     <div className='hero-body'>
       <h1>Xuan Liu</h1>
       <h2>System Designer & Engineer at Amazon</h2>

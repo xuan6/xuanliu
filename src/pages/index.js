@@ -15,7 +15,6 @@ const Home = ({data}) => {
   return(
     <Layout>
     <Seo title="Home" />
-    <Hero />
     <div className='container'>
       <div className='posts'>
       {data.allMdx.nodes.map((node) => (
