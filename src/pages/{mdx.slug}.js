@@ -4,7 +4,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Tile from "../components/tile"
 import { node } from "prop-types"
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 

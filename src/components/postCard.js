@@ -13,7 +13,7 @@ const PostCard = ({ content }) => {
     <Link
     to={`${externalLink ==='na' ? postLink : externalLink}`} target='_blank'
     >
-        <div className={`${content.frontmatter.order%2 == 0 ? 'reversed-columns':'' } post-card columns is-desktop is-vcentered`}>
+        <div className={`${content.frontmatter.order%2 === 0 ? 'reversed-columns':'' } post-card columns is-desktop is-vcentered`}>
             <div className='post-thumbnail column is-half'>
             <GatsbyImage image={image} alt='alt' />
             </div>
