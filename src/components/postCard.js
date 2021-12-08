@@ -11,7 +11,7 @@ const PostCard = ({ content }) => {
     <div key={content.id}
     className='post-section' >
     <Link
-    to={`${externalLink ==='na' ? postLink : externalLink}`}
+    to={`${externalLink ==='na' ? postLink : externalLink}`} target='_blank'
     >
         <div className={`${content.frontmatter.order%2 == 0 ? 'reversed-columns':'' } post-card columns is-desktop is-vcentered`}>
             <div className='post-thumbnail column is-half'>
