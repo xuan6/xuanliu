@@ -5,8 +5,7 @@ import {MdEmail} from '@react-icons/all-files/md/MdEmail'
 
 const Footer = () => (
     <footer className='container'>
-        <div className='footer-text'>© {new Date().getFullYear()} Design and Code by Xuan Liu. 
-        Built with React & Gatsby.
+        <div className='footer-text'>© {new Date().getFullYear()} Xuan Liu. Built with React & Gatsby.
         </div>
         <div className='footer-icon'>
             <a href='https://www.linkedin.com/in/xuanliux/' target='_blank'>
