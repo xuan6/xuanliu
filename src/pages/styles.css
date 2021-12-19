@@ -59,8 +59,26 @@ p {
 footer {
     margin: 2rem;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem; 
 }
+
+.footer-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-icon a {
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.footer-icon a:hover{
+    opacity:1;
+}
+
 
 .hero {
     /* min-height: 60%;
