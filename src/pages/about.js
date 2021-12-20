@@ -10,7 +10,7 @@ const NotFoundPage = () => (
   <div className='container'>
     <div className='about'>
     <h3>Xuan Liu (she/her) </h3>
-    <h4>Design Engineering team | Amazon Device Design</h4>
+    <h4>Design Engineering | Amazon Device Design</h4>
     <p>People often call Xuan Designer by title, but Xuan focuses more on the Engineering side in a nutshell. If you are looking for a typical UX/UI Designer who is passionate about drawing wireframes and visually appealing mockups, you might want to back up and make a u-turn</p>
     <p>While typical designers spend days making creative crafts, Xuan reviews design from the technical lens, systematize designs with engineering patterns, and build scalable, component-based design systems to facilitate design and development process.</p>
     <p>Xuan brings design to life with proof of technical feasibility, scalability, accessibility, and localization compatibility. Xuan is also experienced in exploring short-term alternatives and long-term strategies to meet design intents under technical constraints and tight timelines.</p>
