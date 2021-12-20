@@ -171,3 +171,15 @@ a{
     padding-left: 0.75rem;
     padding-right: 0.75rem;
 }
+
+.about p {
+    margin: 1rem auto;
+}
+
+.about a {
+    font-weight: 600;
+}
+
+.about a:hover {
+    text-decoration: underline dotted 4px;
+}
