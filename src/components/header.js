@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <div className='container is-fluid'>
-  <nav class='navbar is-transparent' role='navigation' aria-label='main navigation'>
+  <nav class='navbar is-fixed-top is-transparent' role='navigation' aria-label='main navigation'>
       <div className='navbar-menu is-active'>
       <div className='navbar-start'>
         <a className='navbar-item'><Link to='/' target='_blank'>{siteTitle}</Link></a>

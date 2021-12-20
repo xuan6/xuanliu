@@ -56,6 +56,10 @@ p {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.navbar-start, .navbar-end {
+    display: inline-block;
+}
+
 footer {
     margin: 2rem;
     text-align: center;
@@ -117,7 +121,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0.75rem;
+    margin-top: 2rem;
 }
 
 .post-divider {
