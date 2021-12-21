@@ -30,8 +30,6 @@ query ($id: String) {
       date
       title
       hero_image_alt
-      hero_image_credit_link
-      hero_image_credit_text
       hero_image {
         childImageSharp {
           gatsbyImageData(layout: FULL_WIDTH, aspectRatio: 1.7)

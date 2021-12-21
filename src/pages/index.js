@@ -7,7 +7,7 @@ import { node } from "prop-types"
 import PostCard from "../components/postCard"
 
 const Home = ({data}) => {
-  // console.log(--error message goes here--)
+  console.log(data)
   return(
     <Layout>
     <Seo title="Projects" />
