@@ -108,7 +108,7 @@ footer {
 .posts {
     flex-direction: column;
     display: flex;
-    margin: 0 auto 2rem auto;
+    margin: 2rem auto;
     max-width: 960px;
 }
 
@@ -121,7 +121,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
 }
 
 .post-divider {
