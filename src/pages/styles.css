@@ -50,6 +50,10 @@ p {
     font-size: 1rem;
 }
 
+.column {
+    padding: 1rem;
+}
+
 .navbar {
     max-width: 1280px;
     margin:0 auto 0 auto;
@@ -58,6 +62,10 @@ p {
 
 .navbar-start, .navbar-end {
     display: inline-block;
+}
+
+.navbar-item {
+    padding: 0.5rem 1rem;
 }
 
 footer {
@@ -153,6 +161,7 @@ footer {
     margin-left: 2rem;
     text-decoration: none;
     margin:auto 0;
+    padding: 0.75rem 1.25rem;
 }
 
 a{
@@ -162,6 +171,7 @@ a{
 .nav-item{
     display: inline-block;
     margin-right: 0.25rem;
+    padding: 0.5rem 1rem;
 }
 
 .container {
@@ -169,13 +179,13 @@ a{
 }
 
 .container.is-fluid {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .about {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .about p {
@@ -189,3 +199,4 @@ a{
 .about a:hover {
     text-decoration: underline dotted 4px;
 }
+
