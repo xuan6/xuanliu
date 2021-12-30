@@ -144,9 +144,12 @@ footer {
     margin-top:0;
 }
 
-.post-thumbnail img:hover{
-    opacity: 0.5;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
+.post-thumbnail{
+    transition: all .2s;
+}
+
+.post-thumbnail:hover{
+    transform: scale(0.98);
 }
 
 .post-thumbnail img{
