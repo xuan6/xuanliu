@@ -21,7 +21,7 @@ const About = () => (
           <p>Xuan brings design to life with proof of technical feasibility, scalability, accessibility, and localization compatibility. Xuan is also experienced in exploring short-term alternatives and long-term strategies to meet design intents under technical constraints and tight timelines.</p>
           <p>Working closely with product and engineering teams makes Xuan an efficient collaborator and communicator. Xuan guides product teams to identify and apply reusable patterns and create products with consistency. Xuan also partners with engineering teams through documentation, office hours, and code reviews to ensure the parity between design and development.</p>
           <br/>
-          <p>Outside work, you can find Xuan busy in cooking or hiking. Xuan also runs a <a href='https://meowshiba.com'>blog</a> (writtrn in chinese) with her partner, documenting their travle expereinces.</p>
+          <p>Outside work, you can find Xuan busy in cooking or hiking. Xuan also runs a <a href='https://meowshiba.com'>blog</a> (writtrn in chinese) with her partner, documenting their travel expereinces.</p>
         </div>
         <div className='profile-img'>
           <img src={profileImage} alt='profile image' />
