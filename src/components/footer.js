@@ -5,8 +5,8 @@ import {MdEmail} from '@react-icons/all-files/md/MdEmail'
 
 const Footer = () => (
     <footer className='container'>
-        <div className='footer-text'>© {new Date().getFullYear()} Xuan Liu. Built with React & Gatsby.
-        </div>
+        <div className='footer-text'>Thanks for stopping by. For detailed case studies, please reach out. </div>
+        <div className='footer-text'> © {new Date().getFullYear()} Xuan Liu. Built with React & Gatsby. </div>      
         <div className='footer-icon'>
             <a href='https://www.linkedin.com/in/xuanliux/' target='_blank'>
                 <FaLinkedin size='1.5rem'/>
@@ -18,7 +18,8 @@ const Footer = () => (
                 <MdEmail size='1.5rem'/>
             </a>
         </div>
-  </footer>
+          
+    </footer>
 )
 
 export default Footer
