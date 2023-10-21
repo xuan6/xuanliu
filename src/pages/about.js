@@ -12,7 +12,7 @@ const About = () => (
     <div className='about'>
       <div className='profile-header'>
         <h3>Xuan Liu (she/her) </h3>
-        <h4>Design System | Amazon Device Design</h4>
+        <h4>Design System | Amazon Device</h4>
         <p>xuanliux93 [at] gmail [dot] com<br/> <a href='https://drive.google.com/file/d/11kgEeI1qJTPYFyxZuZtUi9Kq5cQHruSD/view?usp=sharing'>resume</a></p>
       </div>
       <div className='profile-body'>
